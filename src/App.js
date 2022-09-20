@@ -1,25 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { Component } from 'react';
+import Page from './components/Page';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  state = {
+    items: ''
+  };
+  render() {
+
+    return (
+      <div className="App">
+        <div className="p-6 max-w-sm mx-auto rounded-xl shadow-md flex items-center hover:bg-gray-300">
+          <div className='text-6xl text-primary-500 hover:text-primary-800'>
+            Hello
+          </div>
+          <div className='text-sm'>My name is Connor J. Swislow</div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
