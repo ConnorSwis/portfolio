@@ -12,7 +12,7 @@ class App extends Component {
   render() {
 
     return (
-      <div className="w-full h-screen md:p-20 sm:p-{40}">
+      <div className="w-full h-screen md:p-20 sm:p-{40} bg-gradient-to-tr from-blue-400 to-pink-400">
         <Nav />
         <Page />
         {/* <div className="p-6 max-w-sm mx-auto rounded-xl shadow-md flex items-center hover:bg-gray-300">
