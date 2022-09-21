@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'background': "url('background.png')"
+      }, 
       colors: {
         primary: {
           100: "#ffdacc",
@@ -17,7 +20,16 @@ module.exports = {
           800: "#661d00",
           900: "#330e00"
         },
-      }
+      },
+      animation: {
+        fadeIn: "fadeIn .5s ease-in forwards",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": {opacity: 0},
+          "100%": {opacity: 1},
+        }
+      },  
     },
   },
   plugins: [],
