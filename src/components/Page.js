@@ -1,16 +1,31 @@
 import React from "react";
+import background from "../assets/background.png"
 
 function Page() {
     return (
-        <div className='grid grid-cols-3 gap-8'>
-            <div className='col-1 col-span-3'>
-                <h1 className='text-5xl text-bold'>Ooga booga</h1>
-            </div>
-            <div className='col-1 bg-gradient-to-bl rounded-3xl shadow-lg border-2 animate-[fadeIn_.5s_ease-in_forwards]'>
-                <p className='p-4'>Dolor excepteur in cillum proident do. Ad sit in enim tempor ullamco do quis dolore quis fugiat. Laborum deserunt quis laborum eu consectetur. Do velit ullamco laboris nostrud adipisicing esse. Culpa qui et enim cupidatat exercitation consequat tempor mollit et nulla id. Cillum reprehenderit occaecat fugiat sint duis elit tempor ad amet quis tempor. Deserunt eiusmod irure irure ipsum reprehenderit proident tempor excepteur nostrud sint ullamco et voluptate.</p>
-                <img src="./background.png"></img> {/* TODO: Fix this idk */}
+        <div className="relative w-auto h-screen ">
+            <img src={background} alt="Website background with mushroom gills" className="w-full h-full object-cover mix-blend-overlay pointer-events-none fixed" />
+            <div className="grid grid-cols-3 place-items-stretch gap-8 p-20 indent-4">
+                <h1 className="col-1 col-span-3 text-6xl font-bold py-10 indent-0">Portfolio</h1>
+                <p className="col-1 col-span-1 shadow-xl p-4 rounded-lg bg-primary-500 bg-opacity-80">lorem ipsum non adipisicing et nisi fugiat eiusmod sit officia mollit proident quis nulla esse sunt anim. Incididunt nulla Lorem pariatur et est esse labore mollit consequat consectetur aute culpa magna et. Dolore ullamco minim minim amet fugiat enim qui aliqua. Dolore laborum tempor ad tempor aute. Excepteur laborum elit Lorem pariatur dolore laborum mollit occaecat exercitation ipsum aliquip cillum amet reprehenderit. Id laborum eiusmod velit velit amet magna enim aute Lorem.</p>
+                <p className="col-1 col-span-1 shadow-xl p-4 rounded-lg bg-primary-500 bg-opacity-80">lorem ipsum non adipisicing et nisi fugiat eiusmod sit officia mollit proident quis nulla esse sunt anim. Incididunt nulla Lorem pariatur et est esse labore mollit consequat consectetur aute culpa magna et. Dolore ullamco minim minim amet fugiat enim qui aliqua. Dolore laborum tempor ad tempor aute. Excepteur laborum elit Lorem pariatur dolore laborum mollit occaecat exercitation ipsum aliquip cillum amet reprehenderit. Id laborum eiusmod velit velit amet magna enim aute Lorem.</p>
+                <p className="col-1 col-span-1 shadow-xl p-4 rounded-lg bg-primary-500 bg-opacity-80">lorem ipsum non adipisicing et nisi fugiat eiusmod sit officia mollit proident quis nulla esse sunt anim. Incididunt nulla Lorem pariatur et est esse labore mollit consequat consectetur aute culpa magna et. Dolore ullamco minim minim amet fugiat enim qui aliqua. Dolore laborum tempor ad tempor aute. Excepteur laborum elit Lorem pariatur dolore laborum mollit occaecat exercitation ipsum aliquip cillum amet reprehenderit. Id laborum eiusmod velit velit amet magna enim aute Lorem.</p>
+                <p className="col-1 col-span-1 shadow-xl p-4 rounded-lg bg-primary-500 bg-opacity-80">lorem ipsum non adipisicing et nisi fugiat eiusmod sit officia mollit proident quis nulla esse sunt anim. Incididunt nulla Lorem pariatur et est esse labore mollit consequat consectetur aute culpa magna et. Dolore ullamco minim minim amet fugiat enim qui aliqua. Dolore laborum tempor ad tempor aute. Excepteur laborum elit Lorem pariatur dolore laborum mollit occaecat exercitation ipsum aliquip cillum amet reprehenderit. Id laborum eiusmod velit velit amet magna enim aute Lorem.</p>
+                <p className="col-1 col-span-1 shadow-xl p-4 rounded-lg bg-primary-500 bg-opacity-80">lorem ipsum non adipisicing et nisi fugiat eiusmod sit officia mollit proident quis nulla esse sunt anim. Incididunt nulla Lorem pariatur et est esse labore mollit consequat consectetur aute culpa magna et. Dolore ullamco minim minim amet fugiat enim qui aliqua. Dolore laborum tempor ad tempor aute. Excepteur laborum elit Lorem pariatur dolore laborum mollit occaecat exercitation ipsum aliquip cillum amet reprehenderit. Id laborum eiusmod velit velit amet magna enim aute Lorem.</p>
+                <p className="col-1 col-span-1 shadow-xl p-4 rounded-lg bg-primary-500 bg-opacity-80">lorem ipsum non adipisicing et nisi fugiat eiusmod sit officia mollit proident quis nulla esse sunt anim. Incididunt nulla Lorem pariatur et est esse labore mollit consequat consectetur aute culpa magna et. Dolore ullamco minim minim amet fugiat enim qui aliqua. Dolore laborum tempor ad tempor aute. Excepteur laborum elit Lorem pariatur dolore laborum mollit occaecat exercitation ipsum aliquip cillum amet reprehenderit. Id laborum eiusmod velit velit amet magna enim aute Lorem.</p>
+                <p className="col-1 col-span-1 shadow-xl p-4 rounded-lg bg-primary-500 bg-opacity-80">lorem ipsum non adipisicing et nisi fugiat eiusmod sit officia mollit proident quis nulla esse sunt anim. Incididunt nulla Lorem pariatur et est esse labore mollit consequat consectetur aute culpa magna et. Dolore ullamco minim minim amet fugiat enim qui aliqua. Dolore laborum tempor ad tempor aute. Excepteur laborum elit Lorem pariatur dolore laborum mollit occaecat exercitation ipsum aliquip cillum amet reprehenderit. Id laborum eiusmod velit velit amet magna enim aute Lorem.</p>
+                <p className="col-1 col-span-1 shadow-xl p-4 rounded-lg bg-primary-500 bg-opacity-80">lorem ipsum non adipisicing et nisi fugiat eiusmod sit officia mollit proident quis nulla esse sunt anim. Incididunt nulla Lorem pariatur et est esse labore mollit consequat consectetur aute culpa magna et. Dolore ullamco minim minim amet fugiat enim qui aliqua. Dolore laborum tempor ad tempor aute. Excepteur laborum elit Lorem pariatur dolore laborum mollit occaecat exercitation ipsum aliquip cillum amet reprehenderit. Id laborum eiusmod velit velit amet magna enim aute Lorem.</p>
+                <p className="col-1 col-span-1 shadow-xl p-4 rounded-lg bg-primary-500 bg-opacity-80">lorem ipsum non adipisicing et nisi fugiat eiusmod sit officia mollit proident quis nulla esse sunt anim. Incididunt nulla Lorem pariatur et est esse labore mollit consequat consectetur aute culpa magna et. Dolore ullamco minim minim amet fugiat enim qui aliqua. Dolore laborum tempor ad tempor aute. Excepteur laborum elit Lorem pariatur dolore laborum mollit occaecat exercitation ipsum aliquip cillum amet reprehenderit. Id laborum eiusmod velit velit amet magna enim aute Lorem.</p>
+
             </div>
         </div>
+        // <div className='grid grid-cols-3 place-items-center gap-8'>
+        //     <div className='col-1 col-span-3'>
+        //         <h1 className='text-5xl text-bold'>Ooga booga</h1>
+        //     </div>
+        //     <div className='col-2 bg-gradient-to-bl rounded-3xl shadow-lg border-2 animate-[fadeIn_.5s_ease-in_forwards]'>
+        //         <p className='p-4'>Dolor excepteur in cillum proident do. Ad sit in enim tempor ullamco do quis dolore quis fugiat. Laborum deserunt quis laborum eu consectetur. Do velit ullamco laboris nostrud adipisicing esse. Culpa qui et enim cupidatat exercitation consequat tempor mollit et nulla id. Cillum reprehenderit occaecat fugiat sint duis elit tempor ad amet quis tempor. Deserunt eiusmod irure irure ipsum reprehenderit proident tempor excepteur nostrud sint ullamco et voluptate.</p>
+        //     </div>
     );
 };
 
