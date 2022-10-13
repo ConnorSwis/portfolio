@@ -1,6 +1,6 @@
 function Image(props) {
     (
-        <div>
+        <div className={props.className}>
             <img title="" src={props.src} alt="">ooga</img>
         </div>
     )
