@@ -1,9 +1,9 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
+
 const Item = (props) => {
     return (
-        <div >
-            <img className={"px-3 pt-3 rounded-b-none shadow-md rounded-lg bg-primary-500 place-items-center " + props.className} src={props.src} alt="" />
-            <div className={"p-3 rounded-t-none shadow-md rounded-lg bg-primary-500 place-items-center " + props.className} >
+        <div className={"p-3 bg-primary-500 rounded-md shadow-md "+props.className}>
+            <img className="object-center resize-y rounded-t-md h-auto" src={props.src}></img>
+            <div className="bg-primary-400 pt-2 rounded-b-md">
                 {props.children}
             </div>
         </div>
