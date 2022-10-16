@@ -1,9 +1,10 @@
 const Item = (props) => {
     return (
         <div>
-            <div className=" max-w-[300px] md:max-w-none rounded-md shadow-lg">
+            <div className="m-auto max-w-[300px] md:max-w-none rounded-md shadow-lg">
                 <img
-                    className="rounded-t-md max-h-[300px] md:max-h-[400px] lg:max-h-[500px] "
+                    className="rounded-t-md
+                    max-h-[300px] md:max-h-[400px] lg:max-h-[500px]"
                     src={props.src}
                     alt={props.alt}
                 />

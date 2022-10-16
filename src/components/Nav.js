@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import { FaJs } from 'react-icons/fa';
 
 
 const links = [
-    {name: "HOME"   , link: "/portfolio#home"},
-    {name: "ABOUT"  , link: "/portfolio#about"},
-    {name: "MEMORIES", link: "/portfolio#gallery"},
+    {name: "HOME"   , link: "#home"},
+    {name: "ABOUT"  , link: "#about"},
+    {name: "MEMORIES", link: "#gallery"},
 ];
 
 function Nav() {

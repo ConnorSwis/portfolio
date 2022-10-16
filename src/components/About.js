@@ -20,7 +20,11 @@ const About = () => {
                                 <p className=" mb-12">
                                     Hello, I'm Connor and this is my website. I am 18 years old and a student at The Weber School.
                                     Inspired by my Hebrew teacher,
-                                    <a href="https://github.com/OrtalWikoff" target="_blank" rel="noopener noreferrer"> Ortal Wikoff</a>,
+                                    <a
+                                        href="https://github.com/OrtalWikoff"
+                                        target="_blank" rel="noopener noreferrer"
+                                        className="text-primary-500"
+                                    > Ortal Wikoff</a>,
                                     I decided to give web design a try. 
                                 </p>
 
