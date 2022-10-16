@@ -12,7 +12,7 @@ class App extends Component {
   render() {
 
     return (
-      <div className="object-scale-down resize">
+      <div className="object-scale-down  ">
         <Nav />
         <Page />
       </div>

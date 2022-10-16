@@ -1,14 +1,19 @@
-
 const Item = (props) => {
     return (
-        <div className={"p-3 bg-primary-500 rounded-md shadow-md "+props.className}>
-            <img className="object-center resize-y rounded-t-md h-auto" src={props.src}></img>
-            <div className="bg-primary-400 pt-2 rounded-b-md">
-                {props.children}
+        <div>
+            <div className=" max-w-[300px] md:max-w-none rounded-md shadow-lg">
+                <img
+                    className="rounded-t-md max-h-[300px] md:max-h-[400px] lg:max-h-[500px] "
+                    src={props.src}
+                    alt={props.alt}
+                />
+                <div className="text-black py-2 rounded-b-md pl-3 pr-1 bg-primary-500">
+                    {props.children}
+                </div>
             </div>
         </div>
     );
-}
+};
 
 
 export default Item;
