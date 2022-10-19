@@ -5,6 +5,7 @@ import { Transition } from "@headlessui/react";
 const links = [
     {name: "HOME"   , link: "#home"},
     {name: "ABOUT"  , link: "#about"},
+    {name: "INSPIRATION", link: "#inspiration"},
     {name: "MEMORIES", link: "#gallery"},
 ];
 
