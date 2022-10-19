@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dc52ad78.css",
-    "main.js": "/portfolio/static/js/main.b2aa8b6c.js",
-    "static/media/background.png": "/portfolio/static/media/background.47f1c91944d2a71bc500.png",
+    "main.css": "/portfolio/static/css/main.c24dabcf.css",
+    "main.js": "/portfolio/static/js/main.712dce34.js",
+    "static/media/connor5.jpg": "/portfolio/static/media/connor5.4e0e839b5876ec2df6da.jpg",
     "static/media/family.jpg": "/portfolio/static/media/family.9441d1145487193f8632.jpg",
     "static/media/shabbaton.jpg": "/portfolio/static/media/shabbaton.643bbe2613b42fe7b641.jpg",
     "static/media/table.jpg": "/portfolio/static/media/table.15396ba6f1c055dc7651.jpg",
@@ -13,11 +13,11 @@
     "static/media/bar_mitzvah.jpg": "/portfolio/static/media/bar_mitzvah.c80ad136ce0a262a0abb.jpg",
     "static/media/headshot.jpg": "/portfolio/static/media/headshot.cb6d9106a50e089c7875.jpg",
     "index.html": "/portfolio/index.html",
-    "main.dc52ad78.css.map": "/portfolio/static/css/main.dc52ad78.css.map",
-    "main.b2aa8b6c.js.map": "/portfolio/static/js/main.b2aa8b6c.js.map"
+    "main.c24dabcf.css.map": "/portfolio/static/css/main.c24dabcf.css.map",
+    "main.712dce34.js.map": "/portfolio/static/js/main.712dce34.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc52ad78.css",
-    "static/js/main.b2aa8b6c.js"
+    "static/css/main.c24dabcf.css",
+    "static/js/main.712dce34.js"
   ]
 }
