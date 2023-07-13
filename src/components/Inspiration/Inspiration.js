@@ -35,13 +35,6 @@ const Inspiration = () => {
                         He documents his process and shows how anyone can analyze malware. Hammond
                         inspired me to pursue cybersecurity in college.
                     </Card>
-                <Card 
-                    src="https://pbs.twimg.com/profile_images/1407134988949090306/WI9hanDd_400x400.jpg"
-                    name="Tren Black"
-                    gh="https://github.com/Trenblack"
-                    >
-                        Black is a compsci major who influenced me to choose a degree in computer science. He keeps a log of his experience getting his degree.
-                    </Card>
             </div>
         </div>
     );
